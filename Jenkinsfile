@@ -22,7 +22,7 @@ stages {
 		}
 	}
 
-		stage('Test') {
+		stage('deploy') {
 		steps {
 			echo "test my final webapp" 
 		}
