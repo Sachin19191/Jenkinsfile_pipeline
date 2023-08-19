@@ -1,6 +1,6 @@
 pipeline {
 
-agent linuxnodemvn
+agent any
 
 stages {
 	stage('SCM') {
@@ -14,7 +14,7 @@ stages {
 	stage('Build') {
 		steps {
 			sh 'mvn clean package'
-			echo "maven build package"
+		
 
 		}
 	}	
