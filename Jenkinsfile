@@ -22,6 +22,12 @@ stages {
 		}
 	}
 
+		stage('Test') {
+		steps {
+			echo "test my final webapp" 
+		}
+	}
+
 	}
 }
  
