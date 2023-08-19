@@ -1,6 +1,6 @@
 pipeline {
 
-agent any
+agent jenkins_build_maven
 
 stages {
 	stage('SCM') {
